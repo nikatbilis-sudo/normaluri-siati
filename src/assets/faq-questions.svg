@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 281" role="img" aria-labelledby="title desc">
+  <title id="title">Questions</title>
+  <desc id="desc">Red Questions text surrounded by soft gray question marks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <linearGradient id="redText" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff1515"/>
+      <stop offset="0.48" stop-color="#f00000"/>
+      <stop offset="1" stop-color="#c40000"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="4" flood-color="#750000" flood-opacity="0.42"/>
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#ffffff" flood-opacity="0.9"/>
+    </filter>
+    <filter id="markBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="0.65"/>
+    </filter>
+    <radialGradient id="glow" cx="50%" cy="58%" r="48%">
+      <stop offset="0" stop-color="#ff3f3f" stop-opacity="0.22"/>
+      <stop offset="0.52" stop-color="#ff8a8a" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="425" height="281" fill="url(#bg)"/>
+  <ellipse cx="215" cy="178" rx="188" ry="70" fill="url(#glow)"/>
+
+  <g fill="#cfcfd1" font-family="Arial, Helvetica, sans-serif" font-weight="800" filter="url(#markBlur)">
+    <text x="1" y="66" font-size="48" opacity="0.34" transform="rotate(-7 1 66)">?</text>
+    <text x="51" y="114" font-size="78" opacity="0.38" transform="rotate(-21 51 114)">?</text>
+    <text x="116" y="91" font-size="56" opacity="0.45" transform="rotate(-10 116 91)">?</text>
+    <text x="174" y="50" font-size="38" opacity="0.26" transform="rotate(11 174 50)">?</text>
+    <text x="218" y="105" font-size="87" opacity="0.52" fill="#c39a9a" transform="rotate(-2 218 105)">?</text>
+    <text x="315" y="99" font-size="60" opacity="0.42" transform="rotate(8 315 99)">?</text>
+    <text x="392" y="100" font-size="64" opacity="0.33" transform="rotate(18 392 100)">?</text>
+    <text x="13" y="239" font-size="96" opacity="0.43" transform="rotate(-15 13 239)">?</text>
+    <text x="139" y="273" font-size="91" opacity="0.34" transform="rotate(-24 139 273)">?</text>
+    <text x="281" y="226" font-size="101" opacity="0.56" transform="rotate(28 281 226)">?</text>
+    <text x="386" y="240" font-size="90" opacity="0.36" transform="rotate(-6 386 240)">?</text>
+  </g>
+
+  <g fill="#dedee0" font-family="Arial, Helvetica, sans-serif" font-weight="800" opacity="0.52">
+    <text x="36" y="175" font-size="54" transform="rotate(-28 36 175)">?</text>
+    <text x="360" y="167" font-size="70" transform="rotate(56 360 167)">?</text>
+  </g>
+
+  <text
+    x="35"
+    y="166"
+    fill="url(#redText)"
+    filter="url(#softShadow)"
+    font-family="Arial Black, Impact, Arial, Helvetica, sans-serif"
+    font-size="69"
+    font-weight="900"
+    letter-spacing="-2"
+  >Questions</text>
+</svg>

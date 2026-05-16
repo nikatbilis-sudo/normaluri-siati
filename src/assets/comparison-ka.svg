@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1280" role="img" aria-label="Neon Tbilisi comparison Georgian">
+  <defs>
+    <linearGradient id="pinkBlue" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff3ca5"/>
+      <stop offset="1" stop-color="#52a7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1080" height="1280" fill="#06080d"/>
+  <rect x="28" y="22" width="1024" height="1236" rx="24" fill="#090d14" stroke="url(#pinkBlue)" stroke-width="4"/>
+  <rect x="395" y="22" width="345" height="1236" rx="22" fill="#0c1018" stroke="url(#pinkBlue)" stroke-width="5" filter="url(#glow)"/>
+  <g stroke="#222a34" stroke-width="2">
+    <path d="M28 150h1024M28 292h1024M28 432h1024M28 572h1024M28 710h1024M28 846h1024M28 958h1024M28 1068h1024M28 1176h1024"/>
+    <path d="M395 22v1236M740 22v1236"/>
+  </g>
+  <g font-family="Arial, 'Noto Sans Georgian', sans-serif" fill="#f4f5f7">
+    <text x="520" y="74" font-size="40" fill="#ff4ca6" font-weight="800">ჩვენ</text>
+    <text x="865" y="74" font-size="40" fill="#b8b8bd" font-weight="800">სხვები</text>
+    <text x="145" y="112" font-size="24">Google მიმოხილვები</text>
+    <text x="520" y="120" font-size="38" fill="#ff4ca6" font-weight="800">5.0 ★★★★★</text>
+    <text x="855" y="120" font-size="34" fill="#aaa" font-weight="800">3.0 ★★★☆☆</text>
+
+    <text x="145" y="230" font-size="30" font-weight="700">სინათლის სიძლიერე</text>
+    <text x="515" y="210" font-size="34" fill="#ff4ca6" font-weight="800">3000K - 6500K</text>
+    <text x="440" y="252" font-size="24">იდეალური ფერის დიაპაზონი</text>
+    <text x="805" y="210" font-size="34" fill="#aaa" font-weight="800">400K - 600K</text>
+    <text x="810" y="252" font-size="24" fill="#aaa">შეზღუდული და ნაკლებად ნათელი</text>
+
+    <text x="145" y="370" font-size="30" font-weight="700">ხანგრძლივობა</text>
+    <text x="515" y="350" font-size="36" fill="#ff4ca6" font-weight="800">სამუდამო</text>
+    <text x="445" y="392" font-size="24">50 000+ საათი მუშაობა</text>
+    <text x="805" y="350" font-size="30" fill="#aaa" font-weight="800">მაქსიმუმ 50 000 საათი</text>
+    <text x="810" y="392" font-size="24" fill="#aaa">უფრო მოკლე დრო</text>
+
+    <text x="145" y="510" font-size="30" font-weight="700">გამოცდილება</text>
+    <text x="495" y="490" font-size="36" fill="#ff4ca6" font-weight="800">20 წელზე მეტი</text>
+    <text x="430" y="532" font-size="24">მრავალი წლის გამოცდილება</text>
+    <text x="805" y="490" font-size="34" fill="#aaa" font-weight="800">1 - 3 თვე</text>
+    <text x="815" y="532" font-size="24" fill="#aaa">თითქმის არ აქვთ გამოცდილება</text>
+
+    <text x="145" y="650" font-size="30" font-weight="700">გარანტია</text>
+    <text x="490" y="630" font-size="34" fill="#ff4ca6" font-weight="800">24 - 36 თვე</text>
+    <text x="465" y="672" font-size="24">სრული გარანტია და დაცვა</text>
+    <text x="805" y="630" font-size="30" fill="#aaa" font-weight="800">მაქსიმუმ 12 თვე</text>
+    <text x="815" y="672" font-size="24" fill="#aaa">შეზღუდული გარანტია</text>
+
+    <text x="145" y="790" font-size="30" font-weight="700">წარმოების ხარისხი</text>
+    <text x="420" y="770" font-size="22" fill="#ff4ca6" font-weight="800">ხელით დამზადებული • შემოწმებული</text>
+    <text x="445" y="812" font-size="23">პრემიუმ მასალები და იდეალური დასრულება</text>
+    <text x="795" y="770" font-size="28" fill="#aaa" font-weight="800">ჩვეულებრივი ნეონი</text>
+    <text x="802" y="812" font-size="23" fill="#aaa">ხილული სადენები, დაბალი ხარისხი</text>
+
+    <text x="145" y="914" font-size="30" font-weight="700">კონტროლირებადი სინათლე</text>
+    <text x="505" y="914" font-size="34" fill="#52e15d" font-weight="800">✓ კი</text>
+    <text x="802" y="914" font-size="34" fill="#ff5863" font-weight="800">✕ ყოველთვის არა</text>
+
+    <text x="145" y="1024" font-size="30" font-weight="700">უსაფრთხო / არ ცხელდება</text>
+    <text x="505" y="1024" font-size="34" fill="#52e15d" font-weight="800">✓ კი</text>
+    <text x="802" y="1024" font-size="34" fill="#ff5863" font-weight="800">✕ არა</text>
+
+    <text x="145" y="1134" font-size="30" font-weight="700">100% ჩუმი</text>
+    <text x="505" y="1134" font-size="34" fill="#52e15d" font-weight="800">✓ კი</text>
+    <text x="802" y="1134" font-size="34" fill="#ff5863" font-weight="800">✕ არა</text>
+
+    <text x="145" y="1234" font-size="30" font-weight="700">ლოკალური ბიზნესი</text>
+    <text x="505" y="1234" font-size="34" fill="#52e15d" font-weight="800">✓ კი</text>
+    <text x="802" y="1234" font-size="34" fill="#ff5863" font-weight="800">✕ არა</text>
+  </g>
+  <g fill="none" stroke="#ff62b7" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+    <circle cx="82" cy="220" r="28"/><path d="M82 162v26M82 252v26M24 220h26M114 220h26M41 179l18 18M123 179l-18 18M41 261l18-18M123 261l-18-18"/>
+    <path d="M52 370c24-42 55-42 80 0c-25 42-56 42-80 0Z"/>
+    <path d="M80 482l18 36l40 6l-29 28l7 40l-36-19l-36 19l7-40l-29-28l40-6Z"/>
+    <path d="M80 606l50 22v46c0 38-50 62-50 62s-50-24-50-62v-46Z"/>
+    <path d="M38 842a52 52 0 1 1 86 38M80 842l34-28"/>
+    <path d="M80 972v-76M56 940a28 28 0 1 0 48 0"/>
+    <path d="M34 1090h54l38-30v110l-38-30H34Z"/>
+    <path d="M62 1220l18-54l18 54M40 1220h80"/>
+  </g>
+</svg>
